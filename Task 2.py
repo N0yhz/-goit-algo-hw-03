@@ -14,8 +14,8 @@ def get_numbers_ticket(min, max, quantity):
 
 #examples 
 min_value = 1
-max_value = 50
-quantity = 6
+max_value = 150
+quantity = 8
 lottery_numbers = get_numbers_ticket(min_value, max_value, quantity)
 
 print(f'Loterry ticket numbers: {lottery_numbers}')
