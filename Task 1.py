@@ -9,7 +9,7 @@ def get_days_from_today(date):
         except ValueError:
                 return 'Invalid date format. Please use YYYY-MM-DD.'
 
-date = input('Enter the date:')
+date = input('Enter the date in the format "YYYY-MM-DD":')
 days_from_today = get_days_from_today(date)
 
 print(f'From {date} till now is {days_from_today} days')
